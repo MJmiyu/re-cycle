@@ -1,0 +1,105 @@
+h1 {
+  font-family: 'Pacifico', cursive;
+  font-size: 60px;
+  text-align: center;
+  color: #518eff;
+  margin: 10px 0;
+}
+.city {
+  color: #518eff;
+}
+.country {
+  color: #00bf19;
+}
+
+footer {
+  margin-top: 50px;
+  font-size: 20px;
+  text-align: center;
+  color: #00bf19;
+  margin-bottom: 10px;
+}
+
+img {
+  opacity: 0.5;
+  width: 80vw;
+}
+
+body {
+  background-color: #efefef;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  padding: 5px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+}
+nav > a {
+  text-decoration: none;
+  border: 2px solid #518eff;
+  color: #000;
+  padding: 5px;
+  margin: 5px;
+  border-radius: 5px;
+  background-color: #ffffff;
+}
+nav > a:hover {
+  background-color: #518eff;
+  color: #ffffff;
+}
+nav > a:active {
+  background-color: #00bf19;
+  border-color: #00bf19;
+}
+#tour-times {
+  display: flex;
+  flex-direction: column;
+}
+#tour-times > div {
+  text-align: center;
+}
+#tour-times > div > table {
+  margin: 0 auto;
+}
+h4 {
+  padding: 10px;
+}
+td,
+th {
+  border: 1px solid black;
+  padding: 3px 5px;
+}
+table {
+  border-collapse: collapse;
+}
+tr:nth-child(even) {
+  background-color: #ffffff;
+}
+#about-us > p {
+  margin: 30px 10px;
+}
+
+@media only screen and (min-width: 600px) {
+  #tour-times {
+    flex-direction: row;
+  }
+  #tour-times > div > p {
+    margin: 0 auto;
+    width: 50%;
+  }
+  h4 {
+    width: 70%;
+  }
+  #about-us {
+    margin: 0 auto;
+    width: 50%;
+  }
+  img {
+    width: 50vw;
+  }
+}
